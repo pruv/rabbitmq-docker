@@ -3,7 +3,7 @@
 #
 
 # Pull base image.
-FROM edplx2023.hq.target.com:5000/datastrategy/ubuntu
+FROM dockerfile/ubuntu
 
 # Add files.
 ADD bin/rabbitmq-start /usr/local/bin/
